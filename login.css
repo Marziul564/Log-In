@@ -1,0 +1,331 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'popins', sans-serif;
+}
+.section{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	position: relative;
+
+}
+.image{
+	position: relative;
+	width: 0%;
+	height: 100%;
+}
+.image img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+}
+.form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 	100%;
+	height: 100%;
+	background-image: url(3.png);
+}
+.form h2{
+	color: #607d8b;
+	font-weight: 600;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	border-bottom: 4px solid #ff4584;
+	display: inline-block;
+	letter-spacing: 1px;
+	margin-left: 130px;
+
+	
+
+
+}
+.input{
+	margin-bottom: 20px;
+}
+.input1{
+	margin-bottom: 20px;
+}
+.input2{
+	margin-bottom: 20px;
+}
+.span{
+	font-size: 16px;
+	margin-bottom: 5px;
+	display: inline-block;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+.input input{
+	width: 100%;
+	padding: 10px 20px;
+	outline: none;
+	font-weight: 400;
+	border: 1px solid;
+	font-size: 16px;
+	letter-spacing: 1px;
+	background: transparent;
+	border-radius: 30px;
+}
+.input1 input{
+	padding: 10px 20px;
+	outline: none;
+	font-weight: 400;
+	border: 1px solid;
+	font-size: 16px;
+	letter-spacing: 1px;
+	background: transparent;
+	border-radius: 30px;
+}
+.input2 input{
+	width: 100%;
+	padding: 10px 20px;
+	outline: none;
+	font-weight: 400;
+	border: 1px solid;
+	font-size: 16px;
+	letter-spacing: 1px;
+	background-color: #42CAF9;
+	border-radius: 30px;
+}
+.forgetpass{
+	margin-bottom: 20px;
+	padding: 5px 10px;
+	outline: none;
+	font-weight: 200;
+	border: 1px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	background: transparent;
+	border-radius: 30px;
+}
+.register{
+	padding: 10px 20px;
+	font-weight: 100;
+	border: 1px solid;
+	font-size: 16px;
+	letter-spacing: 1px;
+	background-color: #607d8b;
+	border-radius: 30px;
+	width:50%;
+}
+.forgetpass a{
+	text-decoration: none;
+	color: black;
+}
+.register a{
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+.image1{
+	height: 150px;
+	width: 150px;
+	margin-left: 100px;
+
+}
+@media screen and (max-width: 1024px){
+	.form{
+		width: 100%;
+		height: 100%;
+	}
+	
+}
+@media screen and (max-width: 800px){
+	.form{
+		width: 100%;
+		height: 100%;
+	}
+
+}
+@media screen and (max-width: 1366px){
+	.form{
+		width: 100%;
+		height: 100%;
+	}
+}
+//that was the login page//
+
+
+.section_forget{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	position: relative;
+
+
+}
+.image3{
+	position: relative;
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-color: #489AFF;
+}
+.image3 img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.form_forget{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 100%;
+    float: left;
+    background-color: #489AFF;
+}
+.box{
+	height: 500px;
+	width: 400px;
+	border: 1px solid;
+	border-radius: 30px;
+	border-color: white;
+	box-shadow: 0px 0px 30px 30px;
+	background-color: #00BBFF;
+
+}
+.box h2{
+	color: #607d8b;
+	font-weight: 600;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	border-bottom: 4px solid #ff4584;
+	display: inline-block;
+	letter-spacing: 1px;
+	margin-left: 70px;
+}
+.reset{
+	margin-bottom: 20px;
+	width: 90%;
+	padding: 10px 20px;
+	outline: none;
+	font-weight: 400;
+	border: 1px solid;
+	font-size: 16px;
+	letter-spacing: 1px;
+	background: transparent;
+	border-radius: 30px;
+}
+.box img{
+	width: 150px;
+	height: 150px;
+}
+.span2{
+	font-size: 16px;
+	margin-bottom: 5px;
+	display: inline-block;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+.create{
+	padding: 10px 20px;
+	font-weight: 100;
+	border: 1px solid;
+	font-size: 16px;
+	letter-spacing: 1px;
+	background-color: #607d8b;
+	border-radius: 30px;
+	width:50%;
+	margin-top: 20px;	
+}
+.create a{
+	text-decoration: none;
+	color: black;
+}
+.reset1{
+	margin-bottom: 20px;
+	width: 90%;
+	padding: 10px 20px;
+	outline: none;
+	font-weight: 400;
+	border: 1px solid;
+	font-size: 16px;
+	letter-spacing: 1px;
+	background-color: #489AFF;
+	border-radius: 30px;
+}
+
+//that was the forget password page//
+
+.create_account{
+	width: 100%;
+	height: 100%;
+}
+.form_account{
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	background-image: url(6.jpg);
+}
+.box2{
+	height: 600px;
+	width: 400px;
+	border: 1px solid;
+	border-radius: 30px;
+	border-color: white;
+	box-shadow: 0px 0px 20px 20px;
+	background:transparent;
+	justify-content: center;
+	align-items: center;
+
+}
+.box2 h2{
+	color: #607d8b;
+	font-weight: 600;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	border-bottom: 4px solid #ff4584;
+	display: inline-block;
+	letter-spacing: 1px;
+	margin-left: 70px;
+}
+.box2 img{
+	width: 150px;
+	height: 150px;
+}
+.input_create{
+	margin-bottom: 20px;
+	width: 90%;
+	padding: 10px 20px;
+	outline: none;
+	font-weight: 400;
+	border: 1px solid;
+	font-size: 16px;
+	letter-spacing: 1px;
+	background: transparent;
+	border-radius: 30px;
+}
+.span5{
+	font-size: 16px;
+	margin-bottom: 5px;
+	display: inline-block;
+	font-weight: 300;
+	letter-spacing: 1px;
+	color: #ff4584;
+}
+.input_create1{
+	margin-bottom: 20px;
+	width: 90%;
+	padding: 10px 20px;
+	outline: none;
+	font-weight: 400;
+	border: 1px solid;
+	font-size: 16px;
+	letter-spacing: 1px;
+	background-color: #489AFF;
+	border-radius: 30px;
+}
